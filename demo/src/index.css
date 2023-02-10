@@ -1,0 +1,208 @@
+
+*{
+  box-sizing: border-box;
+  overflow:visible;
+}
+.navebar{
+
+display: flex;
+ justify-content: space-around;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ color: azure;
+
+
+
+}
+.navebar>li{
+  padding: 5px;
+  margin: 5px; border: 1px solid  black;
+  background: rgb(0, 0, 0,0.5);
+backdrop-filter:saturate(180%) blur(10px);
+border-radius: 10px;
+}
+.navebar>li:hover{
+  background-color: gray;
+}
+.image1{
+  height: 80vh ;
+  left: 0;
+  margin: 0;
+  min-height: 10%;
+  min-width: 674px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+}
+.background{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.imgcontainer{
+margin-top: 20px;
+
+}
+.img2{
+
+  width: 250px;
+  
+ 
+}
+.titel{
+ 
+  color: aliceblue;
+}
+.titel2{
+  display: flex;
+  color: azure;
+  justify-content: space-between;
+}
+
+.info-container{
+  color: azure;
+  display: flex;
+/* justify-content: space-between; */
+background: rgb(0, 0, 0,0.5);
+backdrop-filter:saturate(180%) blur(10px);
+
+}
+ .info{
+border: 1px solid azure;
+ flex: 1;
+margin: 0;
+ text-align: center;
+ padding: 0;
+ 
+ }
+.main{
+display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  width: 800px;
+  height: 500px;
+  margin: 25px;
+  font-size: 25px;
+ 
+}
+ .holde-container{
+  display: flex;
+ 
+ }
+ .holder1{
+  margin-right: 5px;
+  margin-left: 1px;
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+ }
+ .holder2{
+  margin-right: 5px;
+  margin-left: 1px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+ }
+ 
+ 
+ .btn-register{
+  background-color:greenyellow;
+  width: 250px;
+  height: 25px;
+  margin-top: 45px;
+ }
+ .dore{
+  border-bottom: 1px solid red;
+ }
+ .tozih{
+  margin: 25px;
+  max-height: 700px;
+  width: 800px;
+ }
+ section {
+  display: flex;
+  justify-content: space-between;
+ }
+ .mazaya{
+  display: flex;
+  justify-content: space-between;
+ }
+ .mazayimg{
+  background-image:url(./img/laptob.png)  ;
+  background-repeat: no-repeat;
+  clip-path: polygon(35% 0, 100% 0, 100% 50%, 100% 68%, 1% 68%, 14% 41%);
+
+  z-index: 1;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+  margin-bottom: 0px;
+ }
+ footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(6, 144, 151);
+  height: 25%;
+  color: azure;
+  margin-top: 0;
+ }
+ 
+ .submit{
+  display: flex;
+  justify-content: end;
+  
+ }
+ .submit>input{
+width: 500px;
+height: 30px;
+ }
+ .about{
+  max-width: 700px;
+  max-height: 250px;
+ }
+#star{
+ color: yellow;
+}
+.bundel{
+ display: flex;
+width: 70%;
+height: 25px;
+justify-content: center;
+}
+.bunel1{
+  height: 30px;
+  width: 20%;
+  background-color:lightgray;
+  background: rgba(167, 144, 144, 0.5);
+  backdrop-filter:saturate(180%) blur(5px);
+}
+ .bundel2{
+  height: 30px;
+  background-color: aqua;
+   width: 40%;
+   background: rgba(42, 40, 40, 0.5);
+backdrop-filter:saturate(180%) blur(10px);
+ }
+ .mazaya-head{
+  font-size: 50px;
+ }
+ .footerecend{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(6, 144, 151);
+  color: azure;
+ 
+ }
+ .fotercontainer{
+
+  
+ }
